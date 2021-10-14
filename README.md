@@ -3,13 +3,13 @@
 This smart contract is deploying a crowdsale for the PupperCoin token, token name PUP to help fund the network development. This network will be used to track dog breeding activity across globe in a decentralized way. If our goal is not met, we will refund all funds of the crowdsale to our investors.
 
 ### **Crowdsale Goal:**
-### 10,000 wei
+10,000 wei
 
 ### **Crowdsale Cap:**
-### 100,000 wei
+100,000 wei
 
 ### **Length of Crowdsale:**
-### 24 weeks
+24 weeks
 ---
 ## **How to Purchase PUP**
 1. On the PupperCoinCrowdsaleTest.sol file, you can purchase Tokens with the buyToken function. Input the amount in wei and 1 TKNbit per wei will be put in escrow under your wallet address until the closing date of 10 days.
