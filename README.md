@@ -3,13 +3,14 @@
 This smart contract is deploying a crowdsale for the PupperCoin token, token name PUP to help fund the network development. This network will be used to track dog breeding activity across globe in a decentralized way. If our goal is not met, we will refund all funds of the crowdsale to our investors.
 
 ### **Crowdsale Goal:**
-### 10,000 wei
+10,000 wei
 
 ### **Crowdsale Cap:**
-### 100,000 wei
+100,000 wei
 
 ### **Length of Crowdsale:**
-### 24 weeks
+24 weeks
+
 ---
 ## **How to Purchase PUP**
 1. On the PupperCoinCrowdsaleTest.sol file, you can purchase Tokens with the buyToken function. Input the amount in wei and 1 TKNbit per wei will be put in escrow under your wallet address until the closing date of 10 days.
@@ -23,6 +24,7 @@ This smart contract is deploying a crowdsale for the PupperCoin token, token nam
 -   Please take note that, withdrawals of Tokens is **ONLY** possible when the goal of **10,000 wei** is reached. Otherwise, you can claim a refund of your investment with the ```claimRefund``` function.
 
 ![buyToken](./gifs/withdrawTokens.gif)
+<<<<<<< HEAD
 
 ## **Adding PUP Token to MetaMask Wallet**
 1. To check your token balance on your MetaMask wallet, open up MetaMask and click on ```Assets```, then ```Import Tokens```.
@@ -37,3 +39,5 @@ This smart contract is deploying a crowdsale for the PupperCoin token, token nam
 - The goal of the crowdsale for this testnet is 10,000 wei equivalent to 10,000 TKNbits or 0.00000000000001 TKNs. MetaMask extension only displays 10^10 decimal places.
 
 ![tokenBalance](./gifs/tokenBalance.gif)
+=======
+>>>>>>> e7ced55f167bab6def990293a79261f3ef0f370a
