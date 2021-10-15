@@ -23,3 +23,17 @@ This smart contract is deploying a crowdsale for the PupperCoin token, token nam
 -   Please take note that, withdrawals of Tokens is **ONLY** possible when the goal of **10,000 wei** is reached. Otherwise, you can claim a refund of your investment with the ```claimRefund``` function.
 
 ![buyToken](./gifs/withdrawTokens.gif)
+
+## **Adding PUP Token to MetaMask Wallet**
+1. To check your token balance on your MetaMask wallet, open up MetaMask and click on ```Assets```, then ```Import Tokens```.
+
+2. Copy and paste the ```token_address``` onto the ```Token Contract Address``` field. The ```Token Symbol``` and ```Decimal``` fields should fill on their own to correspond with the token related to the ```token_address```.
+
+3. Confirm and Import Tokens.
+
+![addTokenWallet](./gifs/addTokenWallet.gif)
+
+4. After using the ```PupperCoinCrowdsale``` contract to ```withdrawTokens``` when the crowdsale is finalized, the balance will reflect on your MetaMask wallet.
+- The goal of the crowdsale for this testnet is 10,000 wei equivalent to 10,000 TKNbits or 0.00000000000001 TKNs. MetaMask extension only displays 10^10 decimal places.
+
+![tokenBalance](./gifs/tokenBalance.gif)
